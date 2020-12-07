@@ -1,0 +1,54 @@
+.nav {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #f9f9f9;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 12px;
+  box-sizing: border-box;
+  border-top: 1px solid #eee;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.nav__btn {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__noti {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  color: white;
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+}
+
+.nav__more {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 37px;
+}
