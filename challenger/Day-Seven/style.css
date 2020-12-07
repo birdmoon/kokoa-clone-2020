@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Ramaraja";
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box__1line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 292px;
+}
+
+.box__1line div:first-child {
+  width: 172px;
+  height: 292px;
+  background: tomato;
+  margin: 7px;
+  border: 4px solid white;
+  position: relative;
+}
+.box__1line div p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  background-color: white;
+  position: absolute;
+  margin-top: 22px;
+  font-weight: 900;
+  padding-left: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.box__1line div p span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.box__1line div:last-child {
+  width: 172px;
+  height: 292px;
+  border: 4px solid white;
+  background: teal;
+  margin: 7px;
+  position: relative;
+}
+
+.box__2line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 292px;
+  margin-top: 20px;
+}
+
+.box__2line div:first-child {
+  width: 172px;
+  height: 292px;
+  background: burlywood;
+  margin: 7px;
+  border: 4px solid white;
+  position: relative;
+}
+.box__2line div p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  background-color: white;
+  position: absolute;
+  margin-top: 22px;
+  font-weight: 900;
+  padding-left: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.box__2line div p span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.box__2line div:last-child {
+  width: 172px;
+  height: 292px;
+  border: 4px solid white;
+  background: thistle;
+  margin: 7px;
+  position: relative;
+}
