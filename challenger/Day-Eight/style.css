@@ -1,0 +1,83 @@
+body {
+  background-color: teal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+@keyframes rotateCircle {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes scaleBox {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.ani-circle {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  animation: rotateCircle 1s ease-in-out infinite;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: white;
+  margin: 8px;
+}
+
+.ani-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 8px;
+  height: 30px;
+  margin: 2px;
+  background-color: white;
+}
+
+.box:first-child {
+  animation: scaleBox 1s 0.1s ease-in-out infinite;
+}
+
+.box:nth-child(2) {
+  animation: scaleBox 1s 0.2s ease-in-out infinite;
+}
+.box:nth-child(3) {
+  animation: scaleBox 1s 0.3s ease-in-out infinite;
+}
+.box:nth-child(4) {
+  animation: scaleBox 1s 0.4s ease-in-out infinite;
+}
+.box:last-child {
+  animation: scaleBox 1s 0.5s ease-in-out infinite;
+}
