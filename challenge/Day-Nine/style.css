@@ -1,0 +1,139 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 370px;
+  padding: 50px 25px 0px 25px;
+  border: 5px solid teal;
+}
+
+.playlist {
+  display: flex;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.random {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.image {
+  font-size: 42px;
+  background-color: #ffbd11;
+  border-radius: 20px;
+  color: white;
+  padding: 36px 46px;
+  border: 2px solid black;
+  margin-right: 20px;
+}
+
+.big {
+  display: block;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 100%;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  font-weight: bold;
+  width: 180px;
+  height: 65px;
+  border: 3px solid black;
+  border-radius: 18px;
+  box-shadow: 0px 3px black;
+}
+
+.play-icon {
+  padding-right: 10px;
+}
+
+.heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  width: 65px;
+  height: 65px;
+  border: 3px solid black;
+  border-radius: 36px;
+  box-shadow: 0px 3px black;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  width: 65px;
+  height: 65px;
+  border: 3px solid black;
+  border-radius: 36px;
+  box-shadow: 0px 3px black;
+}
+
+.list {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.matargasti {
+  width: 60px;
+  height: 60px;
+  background-color: tomato;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.attitude {
+  width: 60px;
+  height: 60px;
+  background-color: #ff89bb;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.try {
+  width: 60px;
+  height: 60px;
+  background-color: #1847e5;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.sunflower {
+  width: 60px;
+  height: 60px;
+  background-color: #00c6ad;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 14px;
+}
+
+.artist {
+  font-size: 15px;
+  color: rgb(0, 0, 0, 0.5);
+  margin-left: 14px;
+}
