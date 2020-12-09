@@ -11,6 +11,37 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  position: relative;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen__noti {
+  background: tomato;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  display: flex;
+  left: 72px;
+  bottom: 18px;
+  position: absolute;
+}
+
+.nav__noti {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  color: white;
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
 }
