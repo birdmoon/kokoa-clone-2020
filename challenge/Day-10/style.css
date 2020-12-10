@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 25px 10px;
+}
+
+.yellow_color {
+  color: #ffc72d;
+}
+
+.grey_color {
+  color: #d5d5d5;
+}
+
+.header {
+  background-color: #ffc72d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 10px;
+  margin-top: -20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.s {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+  height: 50px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: -20px;
+  padding: 30px;
+  color: #d5d5d5;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.05);
+}
+
+.content-book {
+  display: flex;
+  padding: 10px;
+}
+
+.content-cover__img {
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 24px;
+}
+
+.content-cover__desc {
+  display: flex;
+  flex-direction: column;
+  width: 173;
+  height: 150px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.name {
+  color: #c7c7c7;
+  margin-bottom: 15px;
+}
+
+.star {
+  margin-bottom: 15px;
+}
+
+.tag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag div {
+  background-color: #d5d5d5;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #ffc72d;
+}
+
+.booknow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  height: 34px;
+  width: 80px;
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+}
+
+.content-adv__img {
+  width: 70px;
+  height: 110px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.small {
+  font-size: 7px;
+}
+
+.wrap {
+  display: flex;
+  width: 500px;
+  height: 130px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+  padding-left: 10px;
+  width: 70px;
+}
+
+.popular {
+  display: flex;
+}
+
+.popular-cover {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.popular span {
+  display: block;
+  padding: 3px 10px;
+  width: 220px;
+  margin-left: -20px;
+}
+
+.wrap::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(189, 37, 37);
+}

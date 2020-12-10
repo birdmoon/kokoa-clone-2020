@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>day-10-blueprint</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-bugger"><i class="fas fa-bars"></i></div>
+        <div class="header-title">library</div>
+        <div class="header-shop"><i class="fas fa-shopping-bag"></i></div>
+      </header>
+      <div class="s">
+        <div class="search">
+            <span>Search books..</span>
+            <span><i class="fas fa-search"></i></span>
+        </div>
+       </div>
+      <content class="content">          
+        <h1>Book of the day</h1>
+        <div class="content-book">
+          <div class="content-cover">
+            <img
+              src="https://image.aladin.co.kr/product/25638/33/cover500/8954675980_2.jpg"
+              class="content-cover__img"
+            />
+          </div>
+          <div class="content-cover__desc">
+            <div class="title">No Fixed Adobe</div>
+            <div class="name">Journey Through</div>
+            <div class="star">
+              <i class="fas fa-star yellow_color"
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star grey_color"></i
+              ></i>
+            </div>
+            <div class="tag">
+                <div>Journey</div>
+                <div>Biography</div>
+            </div>
+            <div class="btn">
+                <div class="bookmark"><a href="#"><i class="fas fa-bookmark"></a></i></div>
+                <div class="booknow">Book Now</div>
+            </div>
+          </div>
+        </div>
+        <div class="content-adv">
+            <h1>Top Adventures</h1>
+            <div class="wrap">
+                <div class="item"><img src="https://image.aladin.co.kr/product/25108/7/cover150/k842633074_2.jpg" class="content-adv__img"><span class="small"><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star grey_color"></i
+              ></i></span></div>
+                <div class="item"><img src="https://image.aladin.co.kr/product/25566/91/cover150/8968332843_2.jpg" class="content-adv__img"><span class="small"><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star grey_color"></i
+              ></i></span></div>
+                <div class="item"><img src="https://image.aladin.co.kr/product/25592/55/cover150/k782735580_1.jpg" class="content-adv__img"><span class="small"><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star grey_color"></i
+              ></i></span></div>
+                <div class="item"><img src="https://image.aladin.co.kr/product/87/9/cover150/s922637499_1.jpg" class="content-adv__img"><span class="small"><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star yellow_color"></i
+                ><i class="fas fa-star grey_color"></i
+              ></i></span></div>
+            </div>
+        </div>
+        <h1>Popular autors</h1>
+        <div class="popular">
+            
+            <div class="popular-cover">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  class="content-cover__img"
+                />
+              </div>
+              <div class="popular-desc">
+                  <span class="title">Bernard Werber</span>
+                  <span class="name">Werber's books anthropomorphize animals including dolphins, rats and ants. He also uses characters symbolically to reflect "the stage of the evolution of the soul".</span>
+              </div>
+        </div>
+      </content>
+    </div>
+  </body>
+</html>
