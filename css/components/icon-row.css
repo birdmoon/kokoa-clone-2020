@@ -1,0 +1,44 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+  position: relative;
+}
+
+.icon-row span {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 10px;
+}
+
+.drive {
+  display: flex;
+  position: relative;
+}
+
+.noti {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: tomato;
+  border-radius: 4px;
+  top: -12px;
+  right: 35%;
+}

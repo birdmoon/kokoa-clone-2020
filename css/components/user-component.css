@@ -1,3 +1,7 @@
+h6 i {
+  color: tomato;
+}
+
 .user-component {
   display: flex;
   justify-content: space-between;

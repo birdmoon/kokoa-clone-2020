@@ -1,0 +1,19 @@
+@keyframes listAnimation {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.user-component {
+  animation: listAnimation 0.5s ease-in-out forwards;
+}
+
+.user-component:nth-child(2) {
+  opacity: 0;
+  animation-delay: 0.3s;
+}

@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kakao Clone</title>
+    <title>Chat - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -24,79 +24,59 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Birdmoon</h1>
+      </div>
+      <div class="alt-header__column">
+        <span
+          ><a href="search.html"><i class="fas fa-search fa-2x"></i></a
+        ></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars1.githubusercontent.com/u/9139126?s=60&u=e125333cbf9979b62fa670d7fbabb8cf4ad1beb8&v=4"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__name">Birdmoon</h4>
-            <h6 class="user-component__desc">
-              Please check My Kakao Account Info
-            </h6>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://pbs.twimg.com/profile_images/1310240180213706753/B4BJ0Xtn.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">펭수랑</span>
+          <div class="message__info">
+            <span class="message__bubble">펭하!</span>
+            <span class="message__time">21:27</span>
           </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
         </div>
       </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars1.githubusercontent.com/u/9139126?s=60&u=e125333cbf9979b62fa670d7fbabb8cf4ad1beb8&v=4"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__name">Birdmoon</h4>
-            <h6 class="user-component__desc">
-              Please check My Kakao Account Info
-            </h6>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">What's UP?</span>
+            <span class="message__time">21:27</span>
           </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:22</span>
-          <div class="badge">1</div>
         </div>
       </div>
     </main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chat.html"
-            ><span class="nav__noti">2</span><i class="fas fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="search.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><span class="nav__more"></span
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big T^T</span>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/c47454de06.js"
       crossorigin="anonymous"
